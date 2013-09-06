@@ -1,0 +1,237 @@
+com.xiaobawang.colordict.api.TranslationUtil -> com.xiaobawang.a.a.a:
+    void translate(android.app.Activity,java.lang.String,boolean,int,int,int) -> a
+com.xiaobawang.qita.geren.api.UserInfo -> com.xiaobawang.b.a.a.a:
+    java.lang.String[] THREE_GRADES -> a
+    java.lang.String[] FOUR_GRADES -> b
+    java.lang.String[] FIVE_GRADES -> c
+    java.lang.String[] SIX_GRADES -> d
+    long _id -> e
+    java.lang.String username -> f
+    java.lang.String password -> g
+    java.lang.String name -> h
+    java.lang.String school -> i
+    java.lang.String platform -> j
+    java.lang.String schooling -> k
+    java.lang.String grade -> l
+    java.lang.String courseversion -> m
+    java.lang.String avatarpath -> n
+    java.lang.String gender -> o
+    java.lang.String birthday -> p
+    java.lang.String hometown -> q
+    java.lang.String qq -> r
+    java.lang.String signature -> s
+    java.lang.String email -> t
+    java.lang.String hobby -> u
+    long level -> v
+    int getGrade() -> a
+com.xiaobawang.qita.geren.api.UserInfoHelper -> com.xiaobawang.b.a.a.b:
+    android.app.Activity mActivity -> a
+    android.content.ContentResolver mContentResolver -> b
+    com.xiaobawang.qita.geren.api.UserInfo getCurrentUserInfo() -> a
+    long getCurrentUserId() -> b
+    com.xiaobawang.qita.geren.api.UserInfo query(long) -> a
+com.xiaobawang.qita.geren.api.Users -> com.xiaobawang.b.a.a.c:
+com.xiaobawang.qita.geren.api.Users$User -> com.xiaobawang.b.a.a.d:
+    android.net.Uri CONTENT_URI -> a
+com.xiaobawang.util.api.AppUtil -> com.xiaobawang.c.a.a:
+    android.content.Intent getOpenAppIntent(android.app.Activity,java.lang.String) -> a
+com.xiaobawang.util.api.DownloadMoreUtil -> com.xiaobawang.c.a.b:
+    void open(android.app.Activity,int) -> a
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity:
+    android.webkit.WebView mWebView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity$1 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.a:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity:
+    java.util.List mTextCorrect -> c
+    java.util.List mTextDestination -> d
+    java.util.List mTextSource -> e
+    android.widget.Spinner mGradeSpinner -> f
+    android.widget.Spinner mBookSpinner -> g
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView mTextViewSource -> h
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView mTextViewDestination -> i
+    android.widget.ListView mListView -> j
+    android.widget.Button mDownloadButton -> k
+    android.widget.TextView mTextView_problem -> l
+    android.widget.TextView mTextView_score -> m
+    android.widget.Button mSubmit -> n
+    android.widget.Button mTranslate -> o
+    android.widget.Button mAssist -> p
+    android.widget.Button mLeft_arrow -> q
+    android.widget.Button mRight_arrow -> r
+    android.widget.Button mhelpButton -> s
+    java.util.List mGradeNames -> t
+    android.widget.ArrayAdapter mListViewAdapter -> u
+    android.widget.ArrayAdapter mBookAdapter -> a
+    android.widget.ArrayAdapter mGradeAdapter -> b
+    int mCurrentProblem -> v
+    int mCurrentUnit -> w
+    int mScore -> x
+    boolean[] mHaveScored -> y
+    android.content.BroadcastReceiver mBroadcastReceiver -> z
+    android.os.Handler MyHandler -> A
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void startApp() -> b
+    void findView() -> c
+    void setUiSettings() -> d
+    void setListener() -> e
+    void moveWord(java.lang.String,java.util.List,java.util.List) -> a
+    void updateMyTextView() -> f
+    void add(java.lang.String,java.util.List) -> a
+    void delete(java.lang.String,java.util.List) -> b
+    void splitSentence(java.lang.String,java.util.List) -> c
+    void checkCorrect() -> g
+    void setUnitAndSentence(int,int) -> a
+    void setScore(int) -> a
+    void setClickable(int) -> b
+    void addScore(boolean) -> a
+    void onDestroy() -> onDestroy
+    void registerBoradcastReceiver() -> h
+    void initGradeName() -> i
+    void upDateUnitName(int,java.lang.String) -> a
+    void upDateBookName(int) -> c
+    void catchFileError(java.lang.Exception) -> a
+    void readSentence(int) -> d
+    void setSentence(int) -> e
+    void showDialog(java.lang.String,java.lang.String) -> a
+    void assist() -> j
+    boolean isRightNow() -> k
+    java.util.List access$0(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> a
+    java.util.List access$1(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> b
+    void access$2(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,java.lang.String,java.util.List,java.util.List) -> a
+    void access$3(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,int) -> a
+    void access$4(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,int) -> b
+    void access$5(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,int,int) -> a
+    void access$6(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,int,java.lang.String) -> a
+    java.util.List access$7(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> c
+    void access$8(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> d
+    void access$9(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,int) -> c
+    void access$10(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> e
+    int access$11(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> f
+    void access$12(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity,java.lang.String,java.lang.String) -> a
+    void access$13(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> g
+    int access$14(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> h
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView access$15(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> i
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView access$16(com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity) -> j
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$1 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.b:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$10 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.c:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$11 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.d:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$12 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.e:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    boolean onLongClick(android.view.View) -> onLongClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$13 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.f:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    boolean onLongClick(android.view.View) -> onLongClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$14 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.g:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$2 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.h:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$3 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.i:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$4 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.j:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$5 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.k:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$6 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.l:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$7 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.m:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$8 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.n:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity$9 -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.o:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.FileNameFileFilter -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.a.a:
+    java.lang.String fileName -> a
+    boolean accept(java.io.File) -> accept
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.GlobalValue -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.a.b:
+    android.widget.Toast toastOnlyOne -> a
+    int currentGrade -> b
+    java.lang.String currentBook -> c
+    int GradeNumbers -> d
+    java.util.List unitNames -> e
+    java.util.List BookNames -> f
+    java.util.List sentences_english -> g
+    java.util.List sentences_chinese -> h
+    java.lang.String rootPathString -> i
+    java.lang.String[] EXternal_DownloadPaths -> j
+    java.lang.String[] Internal_DownloadPaths -> k
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.Operate -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.a.c:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.Operate instance -> a
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.Operate getInstance() -> a
+    void cancelToast() -> b
+    void showToast(java.lang.String,android.content.Context) -> a
+    void setGrade(android.app.Activity) -> a
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.Tool -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.a.d:
+    boolean $assertionsDisabled -> a
+    int byteToint(byte[]) -> a
+    int[] byteArrayToint(byte[]) -> b
+    java.lang.String removeSuffix(java.lang.String) -> a
+    java.lang.String removeBlankSpace(java.lang.String) -> b
+    int[] getRandomIndex(int) -> a
+    boolean equalSequence(int[]) -> a
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.control.FileOperate -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.b.a:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.control.FileOperate instance -> a
+    java.io.File[] mDownloadDirectorys -> b
+    void init() -> c
+    void makeDir(java.io.File) -> a
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.control.FileOperate getInstance() -> a
+    boolean isExternalStorageWritable() -> b
+    void testStorage() -> d
+    void getUnitName(java.util.List,int,java.lang.String) -> a
+    java.io.File getBookFile(int,java.lang.String) -> a
+    void readUnitName(java.util.List,java.io.File) -> a
+    void getBookName(java.util.List,int) -> a
+    void getSentence(java.util.List,java.util.List,java.lang.String,int,int) -> a
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.control.Init -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.b.b:
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.control.Init instance -> a
+    com.xiaobawang.xiaoxue.yingyu.jimuzaoju.control.Init getInstance() -> a
+    void init() -> b
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.settings.ConstValues -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.c.a:
+    java.lang.String MyTextViewBoradcast_Action_source -> a
+    java.lang.String MyTextViewBoradcast_Action_destination -> b
+    java.lang.String Msg_key -> c
+    android.widget.Toast toastOnlyOne -> d
+    java.lang.String filePostfixString -> e
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView:
+    boolean isFocused() -> isFocused
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.CloudDialog -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.a:
+    java.lang.String mText -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView -> com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView:
+    long lastDownTime -> a
+    long lastUpTime -> b
+    android.view.MotionEvent lastEvent -> c
+    java.lang.String INTERVAL_STRING -> d
+    android.content.Context context -> e
+    boolean setSelect -> f
+    java.lang.String mBroadcastAction -> g
+    void init() -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void dealClick(android.view.MotionEvent) -> a
+    java.lang.String splitText(java.lang.String) -> a
+    java.lang.String getSelect(int) -> a
+    int findStartPoint(int) -> b
+    int findEndPoint(int) -> c
+    void setText(java.util.List) -> setText
+    void sendBroadcastToMain(java.lang.String) -> b
+    void setBoradcastActionName(java.lang.String) -> setBoradcastActionName
+    boolean outOfIndex(int,int) -> a

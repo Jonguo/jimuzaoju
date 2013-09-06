@@ -1,0 +1,84 @@
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity: BriefIntroductionActivity()
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity: MainActivity()
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$color: int black
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$color: int transparent
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$dimen: int activity_horizontal_margin
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$dimen: int activity_vertical_margin
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_background
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_book_background
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_divider
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_download
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_download_button_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_download_button_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_help
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_help_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_help_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_left_arrow
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_left_arrow_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_left_arrow_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_promot
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_promot_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_promot_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_right_arrow
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_right_arrow_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_right_arrow_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_select_sentence_library
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_select_sentence_library_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_select_sentence_library_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_submit
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_submit_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_submit_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_translate
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_translate_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int activity_main_translate_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int cloud_dialog_background
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int cloud_dialog_button
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int cloud_dialog_button_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int cloud_dialog_button_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int help_back_normal
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int help_back_pressed
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int help_background
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int help_button
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable: int ic_launcher
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int acitivity_main_button_download
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int action_settings
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_MyTextView_destination
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_MyTextView_source
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_assist
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_button_help
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_button_submit
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_left_arrow
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_listview
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_right_arrow
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_scrollView_destination
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_scrollView_source
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_spinner
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_spinner_select_sentence_library
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_textview_problem_number
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_textview_score
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int activity_main_translate
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int button
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id: int cloud_dialog_textview
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$layout: int activity_main
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$layout: int brief_introduction
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$layout: int dialog_cloud
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$layout: int marquee_textview_listview
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$menu: int main
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$string: int action_settings
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$string: int app_name
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$string: int hello_world
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$style: int AppBaseTheme
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$style: int AppTheme
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$style: int dialog_cloud
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView: AlwaysMarqueeTextView(android.content.Context)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView: AlwaysMarqueeTextView(android.content.Context,android.util.AttributeSet)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView: AlwaysMarqueeTextView(android.content.Context,android.util.AttributeSet,int)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView: MyTextView(android.content.Context)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView: MyTextView(android.content.Context,android.util.AttributeSet)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView: MyTextView(android.content.Context,android.util.AttributeSet,int)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView: void setText(java.util.List)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView: void setBoradcastActionName(java.lang.String)

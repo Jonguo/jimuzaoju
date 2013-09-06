@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_main_background"
+ >
+
+	<Spinner
+	    android:id="@+id/activity_main_spinner_select_sentence_library"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:minWidth="100dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="443dp"
+	    android:layout_marginTop="34dp"
+	     />
+	<Spinner 
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+	  android:id = "@+id/activity_main_spinner"
+	  android:layout_alignBottom="@+id/activity_main_spinner_select_sentence_library"
+	  android:layout_toLeftOf="@+id/activity_main_spinner_select_sentence_library"
+	  android:layout_marginRight="5dp" 
+	  android:layout_marginLeft="330dp"
+           />
+	
+	<Button
+	    android:id="@+id/activity_main_button_help"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/activity_main_spinner_select_sentence_library"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="21dp"
+	    android:background="@drawable/activity_main_help" />
+	
+	<Button
+	  android:id="@+id/acitivity_main_button_download"
+	  android:layout_width="70dp"
+	  android:layout_height="wrap_content" 
+	  android:layout_marginTop="34dp"
+	  android:layout_toLeftOf="@id/activity_main_button_help"
+	  android:layout_marginRight="5dp" 
+	  android:background="@drawable/activity_main_download"
+	    />
+	
+	<TextView
+	    android:id="@+id/activity_main_textview_score"
+	    android:layout_width="60dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="78dp"
+	    android:layout_marginLeft="313dp"
+	    android:text="0"
+	    android:gravity="center_horizontal"
+	    android:textSize="25sp" />
+
+	<Button
+	    android:id="@+id/activity_main_button_submit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/activity_main_translate"
+	    android:layout_alignRight="@+id/activity_main_button_help"
+	    android:layout_marginRight="32dp"
+	    android:background="@drawable/activity_main_submit" />
+
+	<Button
+	    android:id="@+id/activity_main_assist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/activity_main_spinner_select_sentence_library"
+	    android:layout_alignTop="@+id/activity_main_textview_score"
+	    android:background="@drawable/activity_main_promot" />
+
+	<Button
+	    android:id="@+id/activity_main_translate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/activity_main_assist"
+	    android:layout_alignBottom="@+id/activity_main_assist"
+	    android:layout_toRightOf="@+id/activity_main_assist"
+	    android:background="@drawable/activity_main_translate" />
+
+	<Button
+	    android:id="@+id/activity_main_right_arrow"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/activity_main_button_submit"
+	    android:layout_alignBottom="@+id/activity_main_button_submit"
+	    android:layout_toLeftOf="@+id/activity_main_button_submit"
+	    android:background="@drawable/activity_main_right_arrow"
+	    android:layout_marginRight="20dp"
+	     />
+
+	<Button
+	    android:id="@+id/activity_main_left_arrow"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/activity_main_translate"
+	    android:layout_alignBottom="@+id/activity_main_translate"
+	    android:layout_marginRight="110dp"
+	    android:layout_toLeftOf="@+id/activity_main_right_arrow"
+	    android:background="@drawable/activity_main_left_arrow" />
+
+	<TextView
+	    android:id="@+id/activity_main_textview_problem_number"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/activity_main_left_arrow"
+	    android:layout_alignBottom="@+id/activity_main_left_arrow"
+	    android:layout_marginRight="25dp"
+	    android:layout_toLeftOf="@+id/activity_main_right_arrow"
+	    android:text="第1题"
+	    android:textSize="25sp" />
+
+	<ScrollView
+	    android:id="@+id/activity_main_scrollView_source"
+	    android:layout_width="630dp"
+	    android:layout_height="160dp"
+	    android:layout_marginLeft="310dp"
+	    android:layout_below="@+id/activity_main_spinner_select_sentence_library"
+	    android:layout_marginTop="100dp" >
+
+	    <com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView
+	        android:id="@+id/activity_main_MyTextView_source"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textIsSelectable="true"
+	        android:textSize="30sp" />
+	</ScrollView>
+
+	<ScrollView
+	    android:id="@+id/activity_main_scrollView_destination"
+	    android:layout_width="630dp"
+	    android:layout_height="160dp"
+	    android:layout_alignLeft="@+id/activity_main_textview_score"
+	    android:layout_marginTop="400dp" >
+
+	    <com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView
+	        android:id="@+id/activity_main_MyTextView_destination"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	       	android:textIsSelectable="true"
+	        android:textSize="30sp" />
+	</ScrollView>
+
+	<ListView
+	    android:id="@+id/activity_main_listview"
+	    android:layout_width="200dp"
+	    android:layout_height="500dp"
+	    android:layout_marginTop="150dp"
+	    android:layout_marginLeft="20dp"
+	    android:divider="@drawable/activity_main_divider" >
+	</ListView>
+		
+</RelativeLayout>

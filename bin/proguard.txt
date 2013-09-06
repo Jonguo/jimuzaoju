@@ -1,0 +1,13 @@
+# view AndroidManifest.xml #generated:24
+-keep class com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity { <init>(...); }
+
+# view res/layout/marquee_textview_listview.xml #generated:3
+-keep class com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.AlwaysMarqueeTextView { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:124
+# view res/layout/activity_main.xml #generated:139
+-keep class com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView { <init>(...); }
+

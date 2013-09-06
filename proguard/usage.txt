@@ -1,0 +1,125 @@
+com.weixue.api.AppRuntimeActivity
+com.weixue.api.AutoStartService
+com.weixue.api.BootCompletedReceiver
+com.weixue.api.WeiXueActivity
+com.weixue.constant.api.Constant
+com.weixue.net.api.NetworkUtil
+com.xiaobawang.colordict.api.TranslationUtil:
+    public static final java.lang.String SEARCH_ACTION
+    public static final java.lang.String EXTRA_QUERY
+    public static final java.lang.String EXTRA_FULLSCREEN
+    public static final java.lang.String EXTRA_HEIGHT
+    public static final java.lang.String EXTRA_WIDTH
+    public static final java.lang.String EXTRA_GRAVITY
+    public static final java.lang.String EXTRA_MARGIN_LEFT
+    public static final java.lang.String EXTRA_MARGIN_TOP
+    public static final java.lang.String EXTRA_MARGIN_BOTTOM
+    public static final java.lang.String EXTRA_MARGIN_RIGHT
+    8:8:public TranslationUtil()
+com.xiaobawang.constant.api.FilePath
+com.xiaobawang.constant.api.PackageName
+com.xiaobawang.launcher.api.WeiXueUtil
+com.xiaobawang.qita.geren.api.JSONHelper
+com.xiaobawang.qita.geren.api.Level
+com.xiaobawang.qita.geren.api.UserInfo:
+    public static final java.lang.String NULL
+    public static final java.lang.String GENDER_MALE
+    public static final java.lang.String GENDER_FEMALE
+    public static final java.lang.String PLATFORM_PRESCHOOL
+    public static final java.lang.String PLATFORM_PRIMARYSCHOOL
+    public static final java.lang.String PLATFORM_MIDDLESCHOOL
+    public static final java.lang.String SCHOOLING_SIX_THREE
+    public static final java.lang.String SCHOOLING_FIVE_FOUR
+    public static final int MAX_HOBBY_LENGTH
+    89:101:public int getSchooling()
+    140:140:public boolean isRegistered()
+    144:144:public boolean isTestUser()
+    148:148:public java.lang.String getPackedInfo()
+com.xiaobawang.qita.geren.api.UserInfoGarbageUtil
+com.xiaobawang.qita.geren.api.UserInfoHelper:
+    public static final int USER_COUNT
+    public static final long CUR_USERID_USERID
+    public static final long USER_ID_1
+    public static final long USER_ID_2
+    public static final long USER_ID_3
+    public static final long USER_ID_4
+    public static final long PRESCHOOL_TEST_USERID
+    public static final long PRIMARYSCHOOL_TEST_USERID
+    public static final long MIDDLESCHOOL_TEST_USERID
+    49:53:public void setCurrentUserId(long)
+    56:69:public boolean hasRegisteredUser()
+    73:75:public void delete(long)
+    78:102:public void update(com.xiaobawang.qita.geren.api.UserInfo)
+    173:199:public void insert(com.xiaobawang.qita.geren.api.UserInfo)
+com.xiaobawang.qita.geren.api.UserInfoHelper2
+com.xiaobawang.qita.geren.api.UserInfoUtil
+com.xiaobawang.qita.geren.api.Users:
+    public static final java.lang.String AUTHORITY
+    9:11:private Users()
+com.xiaobawang.qita.geren.api.Users$User:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    public static final java.lang.String USERNAME
+    public static final java.lang.String PASSWORD
+    public static final java.lang.String NAME
+    public static final java.lang.String SCHOOL
+    public static final java.lang.String PLATFORM
+    public static final java.lang.String SCHOOLING
+    public static final java.lang.String GRADE
+    public static final java.lang.String COURSEVERSION
+    public static final java.lang.String AVATARPATH
+    public static final java.lang.String GENDER
+    public static final java.lang.String BIRTHDAY
+    public static final java.lang.String HOMETOWN
+    public static final java.lang.String QQ
+    public static final java.lang.String SIGNATURE
+    public static final java.lang.String EMAIL
+    public static final java.lang.String HOBBY
+    public static final java.lang.String LEVEL
+    14:16:private Users$User()
+com.xiaobawang.qita.guiji.api.AppRuntimeInfoHelper
+com.xiaobawang.qita.guiji.api.AppRuntimeInfoHelper2
+com.xiaobawang.qita.guiji.api.AppRuntimeInfos
+com.xiaobawang.qita.guiji.api.AppRuntimeInfos$AppRuntimeInfo
+com.xiaobawang.qita.guiji.api.StudyPathInfo
+com.xiaobawang.qita.guiji.api.StudyPathInfoHelper
+com.xiaobawang.qita.guiji.api.StudyPathInfoNetworkData
+com.xiaobawang.qita.guiji.api.StudyPathInfoNetworkData$Data
+com.xiaobawang.qita.guiji.api.StudyPathInfoNetworkData$RuntimeData
+com.xiaobawang.util.api.AppUtil:
+    8:8:public AppUtil()
+    26:29:public static void open(android.app.Activity,java.lang.String)
+com.xiaobawang.util.api.DownloadMoreUtil:
+    private static final java.lang.String EXTRA_STRING_PACKAGENAME
+    10:10:public DownloadMoreUtil()
+    22:38:public static void open(android.app.Activity,boolean)
+    41:42:public static void openWithGrade(android.app.Activity)
+com.xiaobawang.util.api.PackageNameUtil
+com.xiaobawang.util.api.PersonalCenterUtil
+com.xiaobawang.util.api.ServiceUtil
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BuildConfig
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$attr
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$color
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$dimen
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$drawable
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$id
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$layout
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$menu
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$string
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.R$style
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.GlobalValue:
+    public static final java.lang.String INTERNAL_SDCARD
+    public static final java.lang.String EXTERNAL_SDCARD
+    8:8:public GlobalValue()
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.SuffixFileFilter
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.assist.Tool:
+    11:17:public static java.io.File findFile(java.io.File[],java.lang.String)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.settings.ConstValues:
+    5:5:public ConstValues()
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.CloudDialog:
+    15:15:public CloudDialog(android.content.Context,int)
+    19:19:public CloudDialog(android.content.Context)
+com.xiaobawang.xiaoxue.yingyu.jimuzaoju.widget.MyTextView:
+    private static final int INTERVAL

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="300dp"
+    android:background="@drawable/cloud_dialog_background"
+  >
+
+<!-- <Button -->
+<!--     android:id="@+id/cloud_dialog_button" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:layout_alignParentRight="true" -->
+<!--     android:layout_below="@+id/cloud_dialog_textview" -->
+<!--     android:layout_marginRight="161dp" -->
+<!--     android:layout_marginTop="93dp" -->
+<!--     android:background="@drawable/cloud_dialog_button" /> -->
+
+<TextView
+    android:id="@+id/cloud_dialog_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:textSize="25sp"
+    android:textColor="#FF9900"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="75dp"
+    android:layout_marginLeft="110dp" />
+
+</RelativeLayout>
