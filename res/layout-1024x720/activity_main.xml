@@ -32,8 +32,7 @@
 	    android:layout_alignBottom="@+id/activity_main_spinner_select_sentence_library"
 	    android:layout_alignParentRight="true"
 	    android:layout_marginRight="21dp"
-	    android:background="@drawable/activity_main_download"
-	     />
+	    android:background="@drawable/activity_main_help" />
 	
 	<Button
 	  android:id="@+id/acitivity_main_button_download"
@@ -101,8 +100,7 @@
 	    android:layout_alignBottom="@+id/activity_main_translate"
 	    android:layout_marginRight="110dp"
 	    android:layout_toLeftOf="@+id/activity_main_right_arrow"
-	    android:background="@drawable/activity_main_left_arrow"
-	     />
+	    android:background="@drawable/activity_main_left_arrow" />
 
 	<TextView
 	    android:id="@+id/activity_main_textview_problem_number"

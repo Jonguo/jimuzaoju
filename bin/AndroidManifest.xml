@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.xiaobawang.xiaoxue.yingyu.jimuzaoju.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -23,7 +24,7 @@
         </activity>
         <activity
             android:name="com.xiaobawang.xiaoxue.yingyu.jimuzaoju.BriefIntroductionActivity" 
-            ></activity>
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
